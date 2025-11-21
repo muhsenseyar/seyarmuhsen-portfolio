@@ -6,7 +6,7 @@ import { Badge } from '@/components/ui/badge.jsx'
 import { Moon, Sun, ArrowUp, Mail, Phone, MapPin, ExternalLink, Github, Linkedin, Download, Server, Network, Code, Database, Shield, Monitor } from 'lucide-react'
 import ProjectDetail from './components/ProjectDetail.jsx'
 import './App.css'
-import resumePDF from './assets/September2025SeyarMuhsenResume.pdf'
+import resumePDF from './assets/November2025SeyarMuhsenResume.pdf'
 
 function HomePage() {
   const [darkMode, setDarkMode] = useState(true)
@@ -43,15 +43,18 @@ function HomePage() {
     { name: 'C/C++', category: 'Programming' },
     { name: 'HTML/CSS', category: 'Web' },
     { name: 'JavaScript', category: 'Web' },
+    { name: 'React Native', category: 'Web' },
     { name: 'Git', category: 'Tools' },
     { name: 'Visual Studio Code', category: 'Tools' },
     { name: 'Microsoft Office', category: 'Productivity' },
-    { name: 'Google Suite', category: 'Productivity' }
+    { name: 'Google Suite', category: 'Productivity' },
+    { name: 'ChatGPT', category: 'AI Tools' },
+    { name: 'Gemini', category: 'AI Tools' },
   ]
 
   const certifications = [
-    { name: 'CompTIA A+', status: 'Completed', date: 'September 2025', icon: <Monitor className="w-5 h-5" /> },
-    { name: 'CompTIA Network+', status: 'In Progress', date: 'TBD', icon: <Network className="w-5 h-5" /> },
+    { name: 'CompTIA A+', status: 'In Progress', date: 'November 2025', icon: <Monitor className="w-5 h-5" /> },
+    { name: 'CompTIA Network+', status: 'Planned', date: 'TBD', icon: <Network className="w-5 h-5" /> },
     { name: 'Future Certifications', status: 'Planned', date: 'TBD', icon: <Shield className="w-5 h-5" /> }
   ]
 
@@ -390,7 +393,7 @@ function HomePage() {
             </Card>
           </div>
           <p className="text-lg text-muted-foreground">
-            I'm always interested in discussing new opportunities, homelab projects, or IT infrastructure topics. 
+            I'm always interested in discussing new opportunities. 
             Feel free to reach out!
           </p>
         </div>
